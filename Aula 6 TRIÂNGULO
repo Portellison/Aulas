@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main(void) {
+
+    float lado1;
+    float lado2;
+    float lado3;
+    
+    
+    printf("Digite os lados do triangulo em ordem crescente. Lado 1: ");
+    scanf("%f", &lado1);
+    
+    printf("Digite o lado 2: ");
+ 
+   scanf("%f", &lado2);
+    
+    printf("Digite o lado 3: ");
+    scanf("%f", &lado3);
+    
+      float hipotenusa = (lado3 * lado3);
+      float catetos = (lado1 * lado1) + (lado2 * lado2);
+   
+    if(hipotenusa == catetos){
+        printf("Este triângulo é retângulo");
+    }
+    else{
+        printf("Este triângulo não é rentângulo");
+    }
+
+
+
+    return 0;
+}
