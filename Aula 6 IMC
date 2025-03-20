@@ -69,3 +69,38 @@ int main(void) {
 
   return 0;
 }
+
+
+
+
+CÍRCULO
+
+#include <stdio.h>
+
+int main(void) {
+
+    float Pi = 3.1415;
+    float raio;
+    
+    printf("Digite o valor do raio do círculo: ");
+    scanf("%f", &raio);
+    
+    float diametro = 2 * raio;
+    float perimetro = 2 * Pi * raio;
+    float area = 2 * Pi * (raio * raio);
+    
+    
+    printf("O valor do diametro do círculo é %.2f", diametro);
+    printf("\nO valor do perímetro do círculo é %2.f", perimetro);
+    printf("\nO valor da área do círculo %2.f", area);
+
+
+
+
+
+
+
+
+
+    return 0;
+}
