@@ -90,3 +90,33 @@ int main(void) {
 }
 
 
+
+MÉDIA DOS ALUNOS
+
+#include <stdio.h>
+
+int main(void) {
+  float soma = 0;
+
+  int numero;
+    int contador = 0;
+  printf("Digite um número (-1 para encerrar): ");
+  scanf("%d", &numero);
+
+  while(numero != -1) {
+    soma = soma + numero;
+
+    printf("Digite um número (-1 para encerrar): ");
+    scanf("%d", &numero);
+    
+    contador += 1;
+  }
+    
+    float media = soma / contador;
+    
+  printf("Resultado da soma: %.2f", soma);
+  
+  printf("\nResultado da média: %2.f", media);
+
+  return 0;
+}
