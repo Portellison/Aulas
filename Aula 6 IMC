@@ -87,7 +87,7 @@ int main(void) {
     
     float diametro = 2 * raio;
     float perimetro = 2 * Pi * raio;
-    float area = 2 * Pi * (raio * raio);
+    float area = Pi * (raio * raio);
     
     
     printf("O valor do diametro do círculo é %.2f", diametro);
